@@ -74,7 +74,17 @@ Route::get('/welcome', [PagesController::class, 'welcome'])->name('welcome');
 /***Cycle:browser->route->contact method->PagesControllers'contact method
 ->pages->contact->index***/
 
+Route::get('/about', [PagesController::class, 'about'])->name('about');
+
+Route::get('/category', [PagesController::class, 'category'])->name('category');
+
+
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+
+Route::get('/post', [PagesController::class, 'post'])->name('post');
+
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
