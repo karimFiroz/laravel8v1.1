@@ -22,8 +22,9 @@
        
         <div class="content">
         <!-- navbar start -->
- @include('partials.call-to-action')
-@include('partials.navbar')
+           
+ @include('partials.header')
+ @include('partials.navbar')
       <!-- navbar end -->
           </div>
           <!-- content end -->

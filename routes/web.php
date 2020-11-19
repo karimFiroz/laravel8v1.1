@@ -24,8 +24,13 @@ Route::redirect('/here', '/there', 301);
 Route::get('user/{id}', function ($id) {
     return 'User '.$id;
 });
-************************************************************/
+*/
 
+
+
+Route::get('firoz', function () {
+    return view('index');
+});
 
 /***Cycle:browser->route->view***/
 
