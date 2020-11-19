@@ -82,6 +82,7 @@ Route::get('/category', [PagesController::class, 'category'])->name('category');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 
 Route::get('/post', [PagesController::class, 'post'])->name('post');
+Route::get('/dashboard', [PagesController::class, 'dashboard'])->name('dashboard');
 
 
 

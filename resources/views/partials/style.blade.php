@@ -14,7 +14,7 @@
   <!-- Custom styles for this template -->
   <link href="{{asset('public/admin')}}/css/landing-page.min.css" rel="stylesheet">
    <link href="{{asset('public/admin')}}/vendor/bootstrap/css/style.css" rel="stylesheet">
-   
+   <link rel="stylesheet" href="{{asset('public/css/style.css')}}">
 
 
 
@@ -35,4 +35,3 @@
     <link rel="stylesheet" href="{{asset('public/website')}}/css/aos.css">
 
     <link rel="stylesheet" href="{{asset('public/website')}}/css/style.css">
-<link rel="stylesheet" href="{{asset('public/css/style.css')}}">

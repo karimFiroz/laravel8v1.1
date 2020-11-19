@@ -10,8 +10,8 @@
 <li class="list-group-item"><a href="{{ route('all_products') }}">All Products</a></li>
 
          <a class="list-group-item" href="{{ route('welcome') }}">Documentation</a>
-        <li class="list-group-item"><a href="http://firozlearninghome.blogspot.com/">Blog</a></li>
-        <li class="list-group-item"><a href="https://www.youtube.com/channel/UCbFXTWcyecmV4_CT3AcsDPw?view_as=subscriber">Youtube</a></li>
+        <li class="list-group-item"><a href="{{ route('dashboard') }}">Dashboard</a></li>
+        <li class="list-group-item"><a href="{{ route('login') }}">Login</a></li>
 </ul>
           
           </div>      

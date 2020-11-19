@@ -14,7 +14,10 @@ class PagesController extends Controller
      * @return \Illuminate\Http\Response
      */
     
-   
+       public function dashboard()
+    {
+        return view('pages.dashboard');
+    }
     
      public function index()
     {
