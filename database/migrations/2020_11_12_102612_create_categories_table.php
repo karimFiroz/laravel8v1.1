@@ -1,4 +1,4 @@
-<?php
+<?php   
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
@@ -17,6 +17,7 @@ class CreateCategoriesTable extends Migration
             $table->id();
             $table->integer('parent_id')->nullable();
             $table->string('name');
+            $table->string('slug');
             $table->string('image')->nullable();
             $table->text('description')->nullable();
       

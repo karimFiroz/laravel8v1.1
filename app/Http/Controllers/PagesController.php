@@ -54,10 +54,7 @@ class PagesController extends Controller
     }
     
     
-      public function category()
-    {
-        return view('pages.category');
-    }
+   
     
     public function contact()
     {

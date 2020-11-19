@@ -17,6 +17,13 @@ class CategoryController extends Controller
         //
     }
 
+       public function category()
+    {
+        return view('pages.category');
+    }
+    
+    
+    
     /**
      * Show the form for creating a new resource.
      *

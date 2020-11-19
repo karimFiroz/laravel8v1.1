@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,15 +32,10 @@ Route::get('user/{id}', function ($id) {
 
 
 Route::get('firoz', function () {
-    return view('index');
+    return view('home');
 });
 
-/***Cycle:browser->route->view***/
 
-Route::get('/karim', function () {
-    return  'Md. Abdul Karim Firoz';
-});
- 
 
 
 
@@ -81,7 +77,7 @@ Route::get('/welcome', [PagesController::class, 'welcome'])->name('welcome');
 
 Route::get('/about', [PagesController::class, 'about'])->name('about');
 
-Route::get('/category', [PagesController::class, 'category'])->name('category');
+Route::get('/category', [CategoryController::class, 'category'])->name('category');
 
 
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
