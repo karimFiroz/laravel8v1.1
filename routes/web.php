@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,9 +40,7 @@ Route::get('/karim', function () {
     return  'Md. Abdul Karim Firoz';
 });
  
-/***Cycle:Value pass: Send variable route->Page->view***/
 
-Route::view('/dashboard', 'dashboard',['name'=>'Md.karim Sarkar']);
 
 
 
@@ -87,7 +87,7 @@ Route::get('/category', [PagesController::class, 'category'])->name('category');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 
 Route::get('/post', [PagesController::class, 'post'])->name('post');
-Route::get('/dashboard', [PagesController::class, 'dashboard'])->name('dashboard');
+Route::get('/admin', [AdminController::class, 'admin'])->name('admin');
 
 
 

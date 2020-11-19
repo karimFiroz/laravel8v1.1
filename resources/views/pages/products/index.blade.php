@@ -1,7 +1,7 @@
 
 @extends('layouts.master')
 @section('content')
- @include('partials.product-sidebar') 
+ 
          <h4 align="center">Feature Products</h4>
 <!--              mobile-->
               <div class="widget">

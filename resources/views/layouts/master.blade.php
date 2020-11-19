@@ -34,7 +34,7 @@
       <div class="container margin-top-20">
       
 <!--sidebar start-->
-          
+         
         @include('partials.sidebar')
           
           
@@ -42,7 +42,7 @@
           
           
           
-  <div class="col-md-9">        
+  <div class="col-md-10">        
           
         
           
