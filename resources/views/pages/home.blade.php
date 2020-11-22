@@ -1,5 +1,26 @@
 @extends('layouts.master')
 @section('content')
-<h3>Login First!</h3>
- <li class="list-group-item"><a href="{{ route('login') }}">Login</a></li>
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+               {{--('You are logged in!')--}}
+            <div class="card" align="center">
+                <div class="card-header">{{ __('Login First!') }}</div>
+
+                <div class="card-body">
+                  
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    @endif
+ <div  align="center"><a href="{{ route('login') }}">Login</a></div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

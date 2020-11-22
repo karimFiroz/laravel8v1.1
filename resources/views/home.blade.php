@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
                {{--('You are logged in!')--}}
-            <div class="card">
+            <div class="card" align=center>
                 <div class="card-header">{{ __('You are logged in!') }}</div>
 
                 <div class="card-body">
