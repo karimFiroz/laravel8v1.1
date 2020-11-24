@@ -2,7 +2,7 @@
            
           <div class="col-md-2">
      
-               <h4>Firoz Learning Home</h4>
+            <h3>Menu</h3>
     <ul class="list-group">
         <li class="list-group-item"><a href="{{ route('index') }}">Home</a></li>
         <li class="list-group-item"><a href="{{ route('products') }}">Products</a></li>

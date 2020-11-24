@@ -27,14 +27,18 @@ Route::redirect('/here', '/there', 301);
 Route::get('user/{id}', function ($id) {
     return 'User '.$id;
 });
+
+Route::get('monira', function () {
+    return view('website.admin.dashboard.index');
+});
+
 */
 
 
 
-Route::get('firoz', function () {
-    return view('home');
+Route::get('monira', function () {
+    return view('website.admin.category.index');
 });
-
 
 
 

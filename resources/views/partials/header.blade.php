@@ -10,7 +10,7 @@
           </div>
 
           <div class="col-4 site-logo">
-            <a href="{{asset('public/website/')}}index.html" class="text-black h2 mb-0">Firoz Learning Home</a>
+            <a href="{{asset('public/website/')}}index.html" class="text-black h2 mb-0">FLH</a>
           </div>
 
           <div class="col-8 text-right">

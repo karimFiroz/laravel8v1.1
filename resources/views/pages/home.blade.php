@@ -16,11 +16,13 @@
                             {{ session('status') }}
                         </div>
                     @endif
- <div  align="center"><a href="{{ route('login') }}">Login</a></div>
+ <div  align="center"><a href="{{ route('login') }}">Login | Register</a></div>
                    
                 </div>
             </div>
         </div>
     </div>
 </div>
+<h3>My 1st video in Youtube Chennel</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nvp79iK_rmM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 @endsection
