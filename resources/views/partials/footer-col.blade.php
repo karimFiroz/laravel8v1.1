@@ -86,7 +86,8 @@
                     <a href="https://www.youtube.com/c/GolamMaulaRonyGolamMaulaRony"target="_blank">Golam Moula Rony</a><br />
                     <a href="https://www.facebook.com/Minafarahusa/"target="_blank">Mina Farah</a><br />
                     <a href="https://www.youtube.com/c/EliasHossain/featured"target="_blank">Ellis Hossain</a><br />
-                    <a href="https://www.youtube.com/channel/UCmzT7IffenKCFiqcJkyU7oQ/playlists"target="_blank">Rose TV</a><br />
+ <a href="https://www.youtube.com/channel/UCmzT7IffenKCFiqcJkyU7oQ/playlists"target="_blank">Rose TV</a><br />
+ <a href="https://www.youtube.com/c/FreshTechTube/playlists"_blank">Fresh Tech Tube</a><br />
                     
                     
                     

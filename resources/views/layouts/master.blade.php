@@ -9,9 +9,6 @@
   @include('partials.style')
 
 
-
-
-
     <title>@yield('title')</title>
   </head>
   <body>
@@ -22,10 +19,10 @@
        
         <div class="content">
         <!-- navbar start -->
-     @include('partials.header')        
-
- @include('partials.navbar')
            
+ @include('partials.header')
+ @include('partials.navbar')
+            
       <!-- navbar end -->
           </div>
           <!-- content end -->

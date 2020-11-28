@@ -1,4 +1,5 @@
-    <header class="site-navbar" role="banner">
+
+  <header class="site-navbar" role="banner">
       <div class="container-fluid">
         <div class="row align-items-center">
           
@@ -38,22 +39,37 @@
 
 
 
-
 <div class="site-cover site-cover-sm same-height overlay single-page" style="background-image: url('images/img_2.jpg');">
       <div class="container">
         <div class="row same-height justify-content-center">
           <div class="col-md-12 col-lg-10">
             <div class="post-entry text-center">
-             
+             <span class="post-category text-white bg-success mb-3">Firozshah Colony, Akbarshah, Chittagong</span>
               <h1 class="mb-4"><a href="#">Firoz Learning Home</a></h1>
               <div class="post-meta align-items-center text-center">
                 <figure class="author-figure mb-0 mr-3 d-inline-block"><img src="{{asset('public/website')}}/images/person_1.jpg" alt="Image" class="img-fluid"></figure>
                 <span class="d-inline-block mt-1">By Md.Abdul Karim</span>
                 <span>Firoz</span><br />
-                   <span class="post-category text-white bg-success mb-3">Firozshah Colony, Akbarshah, Chittagong</span>
+                   
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
